@@ -1,0 +1,25 @@
+{
+  "name": "walkingmeow",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/Mor1aty/walkingmeow.git",
+  "author": "Mor1aty",
+  "description": "walking meow",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
+    "electron": "^21.3.1"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
